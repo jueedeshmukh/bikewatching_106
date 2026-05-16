@@ -19,7 +19,7 @@ const map = new mapboxgl.Map({
 const glowStyle = { 'line-width': 12, 'line-opacity': 0.15, 'line-blur': 6 };
 const coreStyle = { 'line-width': 2, 'line-opacity': 0.9 };
 
-const svg = d3.select('#map').select('svg');
+const svg = d3.select('#map').append('svg');
 
 let timeFilter = -1;
 
